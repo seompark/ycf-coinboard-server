@@ -1,0 +1,13 @@
+{
+  "name": "ycf-coinboard-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/a1p4ca/ycf-coinboard-server",
+  "author": "a1p4ca <dreamaker7770@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonfile": "^4.0.0"
+  }
+}
