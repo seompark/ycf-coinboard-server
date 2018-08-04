@@ -1,24 +1,24 @@
 module.exports = {
     prizes: [
         {
-            name: '킹필',
+            name: '랜덤박스',
             stock: 1,
-            lotteryPercentage: 0.003
+            lotteryPercentage: 0.005
         },
         {
-            name: '분필',
+            name: '두피마사지',
             stock: 1,
-            lotteryPercentage: 0.2
+            lotteryPercentage: 0.008
         },
         {
-            name: '분광',
+            name: '대신귀여운자',
             stock: 1,
-            lotteryPercentage: 0.4
+            lotteryPercentage: 0.015
         },
         {
-            name: '로필',
+            name: '하마',
             stock: 1,
-            lotteryPercentage: 0.3
+            lotteryPercentage: 0.01
         }
     ]
 }
