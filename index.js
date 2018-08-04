@@ -17,7 +17,7 @@ app.get('/posts', (req, res) => {
 })
 
 app.post('/posts', (req, res) => {
-  if (!req.body.content || !req.body.name) {
+  if (!req.body.content || !req.body.name || !req.body.name || !req.body.phone) {
     return res.json({
       error: true,
       message: 'Invalid data received'
@@ -27,7 +27,9 @@ app.post('/posts', (req, res) => {
   posts.push({
     content: req.body.content,
     date: new Date(),
-    name: req.body.name
+    age: req.body.age,
+    name: req.body.name,
+    phone: req.body.phone
   })
   jsonfile.writeFileSync(postsPath, posts)
 
